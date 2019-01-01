@@ -1,3 +1,4 @@
+2019/1/1
 ! 有道词典广告过滤，去除除查词外多余功能
 ||oimagec6.ydstatic.com^$app=com.youdao.dict
 ||oimageb2.ydstatic.com^$app=com.youdao.dict
