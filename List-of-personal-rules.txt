@@ -1,5 +1,5 @@
 ! Title: List of personal rules
-! Description: 个人使用
+! Description: Just for personal using
 ! Version: 2019.1.5.1524
 ! Homepage: https://github.com/anye1998/Adguard-List-of-personal-rules
 !
