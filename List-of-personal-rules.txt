@@ -1,6 +1,6 @@
 ! Title: List of personal rules
 ! Description: 个人使用
-! Version: 2019.1.1
+! Version: 2019.1.5
 ! Homepage: https://github.com/anye1998/Adguard-List-of-personal-rules
 !
 !-------------------------------------------------------------------------------------------------------------------------------------------
