@@ -1,6 +1,6 @@
 ! Title: List of personal rules
 ! Description: 个人使用
-! Version: 2019.1.5
+! Version: 2019.1.5.1524
 ! Homepage: https://github.com/anye1998/Adguard-List-of-personal-rules
 !
 !-------------------------------------------------------------------------------------------------------------------------------------------
@@ -134,6 +134,18 @@
 @@||interface.music.163.com/eapi/search^$app=com.netease.cloudmusic
 @@||interface.music.163.com/eapi/discovery^$app=com.netease.cloudmusic
 @@||interface.music.163.com/eapi/msg^$app=com.netease.cloudmusic
+@@||interface.music.163.com/eapi/*/user^$app=com.netease.cloudmusic
+@@||interface.music.163.com/eapi/user^$app=com.netease.cloudmusic
+@@||interface.music.163.com/eapi/playmode^$app=com.netease.cloudmusic
+||iadmusicmat.music.126.net^$domain=music.163.com,app=com.netease.cloudmusic
+||p1c.music.126.net^$domain=music.163.com,app=com.netease.cloudmusic
+||ilce.alicdn.com^$app=com.netease.cloudmusic
+||unidesk.alicdn.com^$domain=music.163.com,app=com.netease.cloudmusic
+||interface.music.163.com$app=com.netease.cloudmusic
+@@||interface.music.163.com/eapi/*/radio/like$app=com.netease.cloudmusic
+@@||interface.music.163.com/eapi/coop/xiaoice^$app=com.netease.cloudmusic
+@@||interface.music.163.com/eapi/login^$app=com.netease.cloudmusic
+@@||interface.music.163.com/eapi/dj^$app=com.netease.cloudmusic
 !
 !
 !QQ广告微视过滤
@@ -213,7 +225,7 @@
 ||oth.eve.mdt.qq.com:8080^$app=com.qidian.QDReader
 !
 !
-!QQ登录授权放行
+!QQ登录授权放行（不知是否有效）
 @@||appsupport.qq.com^
 !
 !
@@ -391,8 +403,6 @@
 ||img14.360buyimg.com^$domain=pro.m.jd.com,app=com.ss.android.ugc.aweme
 ||storage.360buyimg.com^$domain=pro.m.jd.com,app=com.ss.android.ugc.aweme
 ||m.360buyimg.com^$domain=pro.m.jd.com,app=com.ss.android.ugc.aweme
-@@||interface.music.163.com/eapi/dj^$app=com.netease.cloudmusic
-@@||interface.music.163.com/eapi/login^$app=com.netease.cloudmusic
 @@||aweme.snssdk.com/*/user^$app=com.ss.android.ugc.aweme
 @@||aweme.snssdk.com/aweme/*/story^$app=com.ss.android.ugc.aweme
 @@||aweme.snssdk.com/ies/speed^$app=com.ss.android.ugc.aweme
@@ -402,16 +412,6 @@
 ||yes1.feng.com^$app=com.weiphone.reader
 ||www.stoneread.com//uploadimg/adver/*.jpg$app=com.weiphone.reader
 @@||aweme.snssdk.com/aweme/*/forward^$app=com.ss.android.ugc.aweme
-@@||interface.music.163.com/eapi/*/user^$app=com.netease.cloudmusic
-@@||interface.music.163.com/eapi/user^$app=com.netease.cloudmusic
-@@||interface.music.163.com/eapi/playmode^$app=com.netease.cloudmusic
-||iadmusicmat.music.126.net^$domain=music.163.com,app=com.netease.cloudmusic
-||p1c.music.126.net^$domain=music.163.com,app=com.netease.cloudmusic
-||ilce.alicdn.com^$app=com.netease.cloudmusic
-||unidesk.alicdn.com^$domain=music.163.com,app=com.netease.cloudmusic
-||interface.music.163.com$app=com.netease.cloudmusic
-@@||interface.music.163.com/eapi/*/radio/like$app=com.netease.cloudmusic
-@@||interface.music.163.com/eapi/coop/xiaoice^$app=com.netease.cloudmusic
 ||gateway.kugou.com^$app=com.kugou.android
 ||serveraddr.service.kugou.com^$app=com.kugou.android
 ||quapp.1122dh.com/adscom^$app=com.biquge.ebook.app
