@@ -1,6 +1,6 @@
 ! Title: List of personal rules
 ! Description: Just for personal using
-! Version: 2019.1.5.1524
+! Version: 2019.1.18.2159
 ! Homepage: https://github.com/anye1998/Adguard-List-of-personal-rules
 !
 !-------------------------------------------------------------------------------------------------------------------------------------------
@@ -13,7 +13,7 @@
 ||dict.youdao.com/infoline?$app=com.youdao.dict
 ||dict.youdao.com/infoline?mode=publish&client
 ||gorgon.youdao.com^$app=com.youdao.dict
-||dsp-impr2.youdao.com^$app=com.youdao.dict
+||dsp-impr*.youdao.com^$app=com.youdao.dict
 ||xue.youdao.com^
 !
 !微信广告过滤
@@ -47,12 +47,18 @@
 ||log.web.kugou.com^$app=com.kugou.android
 ||act.fanxing.kugou.com/businessmodules^$app=com.kugou.android
 ||rt-m.kugou.com^$app=com.kugou.android
-||acshow2.kugou.com^$app=com.kugou.android
+||acshow*.kugou.com^$app=com.kugou.android
 ||p3.fx.kgimg.com^$app=com.kugou.android
 ||acshow.kugou.com^$app=com.kugou.android
 ||bjacshow.kugou.com^$app=com.kugou.android
-||bjacshow2.kugou.com^$app=com.kugou.android
 ||song.fanxing.kugou.com^$app=com.kugou.android
+@@||acshow*.kugou.com/mfx-shortvideo^$app=com.kugou.android
+||acsing*.kugou.com/sing7/listenguide^$app=com.kugou.android
+||nsong.acsing.kugou.com/sing7/accompanywan^$app=com.kugou.android
+||kmr.service.kugou.com^$app=com.kugou.android
+||ssong.acsing.kugou.com^$app=com.kugou.android
+||fxsong*.kugou.com^$app=com.kugou.android
+||gzacshow.kugou.com^$app=com.kugou.android
 !
 !
 !酷我广告过滤
@@ -217,7 +223,7 @@
 ||download.qidian.com^$app=com.qidian.QDReader
 ||b.qchannel03.cn^$app=com.qidian.QDReader
 ||pms.mb.qq.com^$app=com.qidian.QDReader
-14.215.140.49$network$app=com.qidian.QDReader
+||14.215.140.49$network$app=com.qidian.QDReader
 ||123.57.136.229^$app=com.qidian.QDReader
 ||101.227.160.41:8080$app=com.qidian.QDReader
 ||m-game.qidian.com^$app=com.qidian.QDReader
@@ -323,6 +329,11 @@
 ||203.119.213.253:443$app=fm.xiami.main
 ||203.119.213.247:443$app=fm.xiami.main
 ||203.119.213.111:443$app=fm.xiami.main
+!
+!
+!
+!
+!
 ||only-819159-49-85-20-157.nstool.netease.com^$app=com.netease.cloudmusic
 @@||aweme.snssdk.com/aweme/*/aweme/feedback^$domain=aweme.snssdk.com,app=com.ss.android.ugc.aweme
 ||sdk.cferw.com^$app=com.kuaiwen.lingdian
@@ -383,16 +394,9 @@
 ||appcloud.zhihu.com$app=com.zhihu.android.lite
 ||183.131.1.82$network$app=com.zhihu.android.lite
 @@||c.y.qq.com/rsc/fcgi-bin^$domain=y.qq.com,app=com.tencent.qqmusic
-@@||acshow.kugou.com/mfx-shortvideo^$app=com.kugou.android
-@@||acshow2.kugou.com/mfx-shortvideo^$app=com.kugou.android
+
 @@||interface.music.163.com/eapi/mindfulness^$app=com.netease.cloudmusic
-||acsing.kugou.com/sing7/listenguide^$app=com.kugou.android
-||acsing2.kugou.com/sing7/listenguide^$app=com.kugou.android
-||nsong.acsing.kugou.com/sing7/accompanywan^$app=com.kugou.android
-||kmr.service.kugou.com^$app=com.kugou.android
-||ssong.acsing.kugou.com^$app=com.kugou.android
-||fxsong2.kugou.com^$app=com.kugou.android
-||gzacshow.kugou.com^$app=com.kugou.android
+
 @@||aweme.snssdk.com/aweme/v*/aweme/feedback/^$app=com.ss.android.ugc.aweme
 @@||aweme.snssdk.com/aweme/in_app/api/*/community^$app=com.ss.android.ugc.aweme
 @@||aweme.snssdk.com/aweme/*/notice^$app=com.ss.android.ugc.aweme
