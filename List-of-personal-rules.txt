@@ -1,6 +1,6 @@
 ! Title: List of personal rules
 ! Description: Just for personal using
-! Version: 2019.1.18.2159
+! Version: 2019.2.4.2126
 ! Homepage: https://github.com/anye1998/Adguard-List-of-personal-rules
 !
 !-------------------------------------------------------------------------------------------------------------------------------------------
@@ -151,6 +151,7 @@
 @@||interface.music.163.com/eapi/coop/xiaoice^$app=com.netease.cloudmusic
 @@||interface.music.163.com/eapi/login^$app=com.netease.cloudmusic
 @@||interface.music.163.com/eapi/dj^$app=com.netease.cloudmusic
+@@||interface.music.163.com/eapi/mindfulness^$app=com.netease.cloudmusic
 !
 !
 !QQ广告微视过滤
@@ -234,16 +235,6 @@
 @@||appsupport.qq.com^
 !
 !
-!
-!
-!知乎极速版广告过滤
-||203.107.1.2^$app=com.zhihu.android.lite
-||lattestatic.lattebank.com$app=com.zhihu.android.lite
-||unpkg.zhimg.com$app=com.zhihu.android.lite
-||mtk.bnet.163.com$app=com.zhihu.android.lite
-||mmbiz.qpic.cn$app=com.zhihu.android.lite
-||livep.l.qq.com$app=com.zhihu.android.lite
-||video.qq.com$app=com.zhihu.android.lite
 !
 !
 !MIUI安全中心骚扰拦截库更新放行
@@ -394,7 +385,7 @@
 ||183.131.1.82$network$app=com.zhihu.android.lite
 @@||c.y.qq.com/rsc/fcgi-bin^$domain=y.qq.com,app=com.tencent.qqmusic
 
-@@||interface.music.163.com/eapi/mindfulness^$app=com.netease.cloudmusic
+
 
 @@||aweme.snssdk.com/aweme/v*/aweme/feedback/^$app=com.ss.android.ugc.aweme
 @@||aweme.snssdk.com/aweme/in_app/api/*/community^$app=com.ss.android.ugc.aweme
