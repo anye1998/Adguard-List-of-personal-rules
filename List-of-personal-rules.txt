@@ -1,6 +1,6 @@
 ! Title: List of personal rules
 ! Description: Just for personal using
-! Version: 2019.2.4.2126
+! Version: 2019.2.6.2046
 ! Homepage: https://github.com/anye1998/Adguard-List-of-personal-rules
 !
 !-------------------------------------------------------------------------------------------------------------------------------------------
@@ -152,6 +152,8 @@
 @@||interface.music.163.com/eapi/login^$app=com.netease.cloudmusic
 @@||interface.music.163.com/eapi/dj^$app=com.netease.cloudmusic
 @@||interface.music.163.com/eapi/mindfulness^$app=com.netease.cloudmusic
+@@||interface.music.163.com/eapi/djradio^$app=com.netease.cloudmusic
+@@||interface.music.163.com/eapi/mlivestream^$app=com.netease.cloudmusic
 !
 !
 !QQ广告微视过滤
@@ -322,6 +324,22 @@
 !
 !
 !
+!全本追书阅读器
+||adashbc.ut.taobao.com^$app=cn.qbzsydsq.reader
+||sf6-ttcdn-tos.pstatp.com^$app=cn.qbzsydsq.reader
+||pat.farvd.com^$app=cn.qbzsydsq.reader
+||*.dingyueads.com^$app=cn.qbzsydsq.reader
+!
+!
+!掌上大学
+||www.loocha.cn$app=com.realcloud.loochadroid.college
+||*.alicdn.com^$app=com.realcloud.loochadroid.college
+||download.loocha.cn:6443^$app=com.realcloud.loochadroid.college
+||*.m.taobao.com^$app=com.realcloud.loochadroid.college
+||cps.loocha.cn$app=com.realcloud.loochadroid.college
+||www.loocha.com.cn$app=com.realcloud.loochadroid.college
+||download.loocha.com.cn^$app=com.realcloud.loochadroid.college
+
 !
 !
 ||only-819159-49-85-20-157.nstool.netease.com^$app=com.netease.cloudmusic
@@ -411,10 +429,3 @@
 ||quapp.1122dh.com/adscom^$app=com.biquge.ebook.app
 ||static.ryx21.cn/appimg^$app=com.biquge.ebook.app
 ||webapi.kuwo.cn^$app=cn.kuwo.player
-||www.loocha.cn$app=com.realcloud.loochadroid.college
-||*.alicdn.com^$app=com.realcloud.loochadroid.college
-||download.loocha.cn:6443^$app=com.realcloud.loochadroid.college
-||*.m.taobao.com^$app=com.realcloud.loochadroid.college
-||cps.loocha.cn$app=com.realcloud.loochadroid.college
-||www.loocha.com.cn$app=com.realcloud.loochadroid.college
-||download.loocha.com.cn^$app=com.realcloud.loochadroid.college
