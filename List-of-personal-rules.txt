@@ -1,6 +1,6 @@
 ! Title: List of personal rules
 ! Description: Just for personal using
-! Version: 2019.2.24.2235
+! Version: 2019.2.24.2240
 ! Homepage: https://github.com/anye1998/Adguard-List-of-personal-rules
 !
 !-------------------------------------------------------------------------------------------------------------------------------------------
@@ -282,10 +282,7 @@
 !
 !掌上大学
 ||*.alicdn.com^$app=com.realcloud.loochadroid.college
-||download.loocha.cn^$app=com.realcloud.loochadroid.college
 ||*.m.taobao.com^$app=com.realcloud.loochadroid.college
-||download.loocha.com.cn^$app=com.realcloud.loochadroid.college
-
 !
 !
 ||only-819159-49-85-20-157.nstool.netease.com^$app=com.netease.cloudmusic
