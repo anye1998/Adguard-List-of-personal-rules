@@ -281,8 +281,13 @@
 !
 !
 !掌上大学
+||www.loocha.cn$app=com.realcloud.loochadroid.college
 ||*.alicdn.com^$app=com.realcloud.loochadroid.college
+||download.loocha.cn:6443^$app=com.realcloud.loochadroid.college
 ||*.m.taobao.com^$app=com.realcloud.loochadroid.college
+||cps.loocha.cn$app=com.realcloud.loochadroid.college
+||www.loocha.com.cn$app=com.realcloud.loochadroid.college
+||download.loocha.com.cn^$app=com.realcloud.loochadroid.college
 !
 !
 ||only-819159-49-85-20-157.nstool.netease.com^$app=com.netease.cloudmusic
