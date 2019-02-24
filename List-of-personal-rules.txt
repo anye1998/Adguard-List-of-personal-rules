@@ -1,6 +1,6 @@
 ! Title: List of personal rules
 ! Description: Just for personal using
-! Version: 2019.2.17.0955
+! Version: 2019.2.24.2235
 ! Homepage: https://github.com/anye1998/Adguard-List-of-personal-rules
 !
 !-------------------------------------------------------------------------------------------------------------------------------------------
@@ -281,12 +281,9 @@
 !
 !
 !掌上大学
-||www.loocha.cn$app=com.realcloud.loochadroid.college
 ||*.alicdn.com^$app=com.realcloud.loochadroid.college
-||download.loocha.cn:6443^$app=com.realcloud.loochadroid.college
+||download.loocha.cn^$app=com.realcloud.loochadroid.college
 ||*.m.taobao.com^$app=com.realcloud.loochadroid.college
-||cps.loocha.cn$app=com.realcloud.loochadroid.college
-||www.loocha.com.cn$app=com.realcloud.loochadroid.college
 ||download.loocha.com.cn^$app=com.realcloud.loochadroid.college
 
 !
